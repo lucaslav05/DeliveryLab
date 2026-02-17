@@ -1,9 +1,9 @@
-Hello user,
+Hello Kevin,
 
-please review this document for me.
+Please review this document for me.
 
 https://delivery-lab-six.vercel.app/
 
 Thank you,
 
-Person
+Your Very Real Coworker
