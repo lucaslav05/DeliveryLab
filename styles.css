@@ -1,0 +1,93 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body {
+    background: #f1f3f4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== TOP BAR ===== */
+.topbar {
+    height: 56px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: 1px solid #ddd;
+    gap: 16px;
+}
+
+.logo {
+    font-weight: bold;
+    color: #4285f4;
+    font-size: 20px;
+}
+
+.doc-title {
+    border: none;
+    font-size: 18px;
+    outline: none;
+    padding: 4px 8px;
+}
+
+.menu span {
+    margin-right: 14px;
+    color: #444;
+    font-size: 14px;
+    cursor: default;
+}
+
+/* ===== TOOLBAR ===== */
+.toolbar {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.toolbar button,
+.toolbar select {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* ===== WORKSPACE ===== */
+.workspace {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+/* Document page */
+.page {
+    width: 816px;        /* ~8.5x11 ratio */
+    min-height: 1056px;
+    background: white;
+    padding: 96px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+/* Typography */
+.page h1 {
+    margin-bottom: 20px;
+}
+
+.page p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+    color: #222;
+}
